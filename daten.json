@@ -1,6 +1,6 @@
 {
- "version": "2026-10-25",
- "aenderungen": "Zuschläge Sicherheit Hessen nach Manteltarif (Feiertag 100 %, 24./31.12. ab 12 Uhr, nur der höchste Zuschlag zählt) und Neuigkeiten für 2027 – ab jetzt ohne KI.",
+ "version": "2026-10-26",
+ "aenderungen": "Nachtzuschlag Hessen je Tätigkeit (Objektschutz 12 %, sonst 25 %), Urlaubsgeld Hessen nur bei Zusage im Arbeitsvertrag, neue Werte und Neuigkeiten für 2027.",
  "tarif": {
   "BW": {
    "lauf": "01.01.2026–31.12.2027",
@@ -118,14 +118,17 @@
     15.15,
     15.6
    ],
-   "n": 12,
+   "n": 25,
    "nv": 20,
    "nb": 6,
    "so": 25,
    "ft": 100,
    "max": true,
    "hl": 12,
-   "note": "MTV Hessen § 10: Feiertag 100 % (0–24 Uhr), 24.12./31.12. ab 12 Uhr 100 %, nur der höchste Zuschlag zählt. Nacht laut BDSW-Übersicht 2026 „12 % oder 25 %“ – mit der Abrechnung vergleichen."
+   "note": "Nacht 25 %, im Objektschutz 12 % (20–6 Uhr). Feiertag 100 %; die BDSW-Übersicht nennt nachts 75 % – mit deiner Abrechnung vergleichen und unter Lohn einstellen. Nur der höchste Zuschlag zählt. Ab 01.01.2027: Objektschutz 15,70 €, Revier 16,07 €, NSL 16,42 €, Werkschutz 17,92 €.",
+   "nG": {
+    "objekt": 12
+   }
   },
   "MV": {
    "lauf": "01.01.2026–31.12.2027",
@@ -581,7 +584,7 @@
  ],
  "sonder": {
   "HE": {
-   "quelle": "Manteltarifvertrag Wach- und Sicherheitsgewerbe Hessen (Fassung 03.02.2003, § 15 und § 16). Ob diese Fassung noch unverändert gilt, ist nicht bestätigt – bitte beim Arbeitgeber oder bei ver.di nachfragen.",
+   "quelle": "Manteltarifvertrag Wach- und Sicherheitsgewerbe Hessen, Jahressonderzahlung (Staffel nach Betriebszugehörigkeit am 31.10., −2,5 % je Fehltag, ab 40 Fehltagen keine; Arbeitsunfälle zählen nicht).",
    "weihnacht": {
     "monat": 11,
     "stichtag": "10-31",
@@ -611,9 +614,7 @@
     "maxTage": 40,
     "unfallZaehlt": false
    },
-   "urlaub": {
-    "proTag": 7.5
-   }
+   "hinweis": "Urlaubsgeld sieht der Manteltarif Hessen seit 2007 nicht mehr vor (BAG, Urteil vom 20.04.2012, 9 AZR 504/10) – nur eintragen, wenn es in deinem Arbeitsvertrag steht."
   }
  },
  "k26": {
@@ -663,21 +664,35 @@
    "datum": "2027-01-01",
    "bereich": "Sozial",
    "was_bedeutet_das": "Rente: 8.850 €/Monat, Kranken- und Pflegeversicherung: 6.375 €/Monat. Vom Kabinett am 07.10.2026 beschlossen, der Bundesrat muss noch zustimmen. Betrifft nur höhere Einkommen.",
-   "quelle": "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/261008-bundeskabinett-sv-rechengroessen-2027"
+   "quelle": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/bundeskabinett-beschliesst-sozialversicherungsrechengroessen-2027.html"
   },
   {
-   "titel": "Kinderkrankentage: 15 Tage gelten bis Ende 2026",
-   "datum": "2026-12-31",
+   "titel": "Kinderkrankentage: ab 2027 wieder 10 Tage",
+   "datum": "2027-01-01",
    "bereich": "Familie",
-   "was_bedeutet_das": "2026 gibt es 15 Tage pro Kind und Elternteil (Alleinerziehende 30). Wird nicht verlängert, sind es ab 2027 wieder 10 bzw. 20 Tage.",
+   "was_bedeutet_das": "Die Sonderregel mit 15 Tagen (Alleinerziehende 30) gilt nur 2026. Ab 2027: 10 Tage je Kind und Elternteil (höchstens 25), Alleinerziehende 20 (höchstens 50).",
    "quelle": "https://www.gesetze-im-internet.de/sgb_5/__45.html"
   },
   {
-   "titel": "Sicherheit Hessen: Feiertag 100 %, nur höchster Zuschlag",
+   "titel": "Sicherheit Hessen: Zuschläge und Löhne 2027",
    "datum": "2026-01-01",
    "bereich": "Tarif",
-   "was_bedeutet_das": "Laut Manteltarif Hessen § 10 gibt es an Feiertagen 100 % (ganztags), am 24./31.12. ab 12 Uhr. Treffen Zuschläge zusammen, zählt nur der höchste. Die App rechnet jetzt so.",
+   "was_bedeutet_das": "Nacht 25 %, im Objektschutz 12 %. Feiertag 100 %, nur der höchste Zuschlag zählt. Ab 01.01.2027: Objektschutz 15,70 €, Revier 16,07 €, NSL 16,42 €, Werkschutz 17,92 €.",
    "quelle": "https://www.bdsw.de/images/tarifuebersichten/2026/Uebersicht_Entgelt_2026_0101a.pdf"
+  },
+  {
+   "titel": "Bürgergeld heißt jetzt Grundsicherungsgeld",
+   "datum": "2026-07-01",
+   "bereich": "Sozial",
+   "was_bedeutet_das": "Regelbedarf für Alleinstehende 563 €. Die Freibeträge für Einkommen aus Arbeit gelten weiter.",
+   "quelle": "https://www.recht.bund.de/bgbl/1/2026/107/regelungstext.pdf"
+  },
+  {
+   "titel": "Entwurf: Einkommensteuer 2027",
+   "datum": "2027-01-01",
+   "bereich": "Steuer",
+   "was_bedeutet_das": "Geplant (noch nicht beschlossen): Grundfreibetrag 12.564 €, Arbeitnehmer-Pauschbetrag 1.430 €, Kindergeld 267 €. Die App rechnet erst damit, wenn das Gesetz verkündet ist.",
+   "quelle": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/09/2026-09-02-einkommensteuerreform.html"
   }
  ]
 }

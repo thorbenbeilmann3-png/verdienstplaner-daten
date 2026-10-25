@@ -1,0 +1,683 @@
+{
+ "version": "2026-10-25",
+ "aenderungen": "Zuschläge Sicherheit Hessen nach Manteltarif (Feiertag 100 %, 24./31.12. ab 12 Uhr, nur der höchste Zuschlag zählt) und Neuigkeiten für 2027 – ab jetzt ohne KI.",
+ "tarif": {
+  "BW": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.14,
+    17,
+    16.3,
+    18.4,
+    20.95,
+    15.14,
+    14.15
+   ],
+   "n": 15,
+   "nv": 20,
+   "nb": 6,
+   "so": 35,
+   "ft": 100
+  },
+  "BY": {
+   "lauf": "01.01.2025–31.12.2026 (Ortsklasse 1)",
+   "g": [
+    14.92,
+    17.59,
+    15.55,
+    18.33,
+    21.06,
+    14.92,
+    16.42
+   ],
+   "n": 23,
+   "nv": 20,
+   "nb": 6,
+   "so": 26,
+   "ft": 100,
+   "note": "Flüchtlingsunterkünfte inkl. 1,50 € Zulage."
+  },
+  "BE": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.15,
+    16.8,
+    16.2,
+    16.8,
+    17.65,
+    15.55,
+    15.55
+   ],
+   "n": 15,
+   "nv": 22,
+   "nb": 6,
+   "so": 25,
+   "ft": 50
+  },
+  "BB": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.15,
+    16.8,
+    16.2,
+    16.8,
+    17.65,
+    15.55,
+    15.55
+   ],
+   "n": 15,
+   "nv": 22,
+   "nb": 6,
+   "so": 25,
+   "ft": 50
+  },
+  "HB": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.15,
+    16.02,
+    15.27,
+    16.87,
+    16.87,
+    15.15,
+    15.15
+   ],
+   "n": 5,
+   "nv": 23,
+   "nb": 6,
+   "so": 50,
+   "ft": 100,
+   "note": "Objektschutz 15,15 € ab 01.03.2026 (Jan–Feb 14,60 €)."
+  },
+  "HH": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.14,
+    15.32,
+    15.32,
+    16.77,
+    16.77,
+    15.14,
+    null
+   ],
+   "n": 15,
+   "nv": 20,
+   "nb": 6,
+   "so": 50,
+   "ft": 100,
+   "note": "Objektschutz 15,14 € ab 01.03.2026 (Jan–Feb 14,60 €)."
+  },
+  "HE": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.15,
+    15.84,
+    15.5,
+    17.28,
+    20.07,
+    15.15,
+    15.6
+   ],
+   "n": 12,
+   "nv": 20,
+   "nb": 6,
+   "so": 25,
+   "ft": 100,
+   "max": true,
+   "hl": 12,
+   "note": "MTV Hessen § 10: Feiertag 100 % (0–24 Uhr), 24.12./31.12. ab 12 Uhr 100 %, nur der höchste Zuschlag zählt. Nacht laut BDSW-Übersicht 2026 „12 % oder 25 %“ – mit der Abrechnung vergleichen."
+  },
+  "MV": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.05,
+    16.3,
+    15.61,
+    16.3,
+    17.47,
+    15.61,
+    16.11
+   ],
+   "n": 10,
+   "nv": 22,
+   "nb": 6,
+   "so": 25,
+   "ft": 50,
+   "note": "Flüchtlingsunterkünfte inkl. 0,50 € Zulage."
+  },
+  "NI": {
+   "lauf": "01.01.2026–31.12.2027 (GÖD)",
+   "g": [
+    15.14,
+    null,
+    16.28,
+    17.77,
+    17.77,
+    15.14,
+    15.14
+   ],
+   "n": 10,
+   "nv": 23,
+   "nb": 6,
+   "so": 50,
+   "ft": 100
+  },
+  "NW": {
+   "lauf": "01.04.2025–31.12.2026",
+   "g": [
+    15.11,
+    18.47,
+    17.91,
+    21.83,
+    22.28,
+    14.95,
+    16.84
+   ],
+   "n": 18,
+   "nv": 20,
+   "nb": 6,
+   "so": 50,
+   "ft": 100,
+   "note": "Objektschutz und Flüchtlingsunterkünfte: Werte ab 01.02.2026."
+  },
+  "RP": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.14,
+    15.72,
+    15.49,
+    16.98,
+    16.98,
+    null,
+    16.51
+   ],
+   "n": 10,
+   "nv": 20,
+   "nb": 6,
+   "so": 25,
+   "ft": 100
+  },
+  "SL": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.14,
+    15.72,
+    15.49,
+    16.98,
+    16.98,
+    null,
+    16.51
+   ],
+   "n": 10,
+   "nv": 20,
+   "nb": 6,
+   "so": 25,
+   "ft": 100
+  },
+  "SN": {
+   "lauf": "01.02.2026–31.12.2027 (GÖD)",
+   "g": [
+    15.15,
+    15.64,
+    15.64,
+    16.89,
+    18.09,
+    15.64,
+    15.15
+   ],
+   "n": 10,
+   "nv": 23,
+   "nb": 6,
+   "so": 25,
+   "ft": 50,
+   "note": "Mehrarbeitszuschlag ab der 221. Monatsstunde."
+  },
+  "ST": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.14,
+    16.85,
+    15.63,
+    16.85,
+    18.07,
+    15.63,
+    16.38
+   ],
+   "n": 10,
+   "nv": 22,
+   "nb": 6,
+   "so": 25,
+   "ft": 50,
+   "note": "Flüchtlingsunterkünfte inkl. 0,75 € Zulage."
+  },
+  "SH": {
+   "lauf": "01.01.2024–31.12.2026",
+   "g": [
+    15.1,
+    16.71,
+    15.1,
+    16.96,
+    16.96,
+    15.1,
+    15.59
+   ],
+   "n": 15,
+   "nv": 20,
+   "nb": 6,
+   "so": 10,
+   "ft": 50
+  },
+  "TH": {
+   "lauf": "01.01.2026–31.12.2027",
+   "g": [
+    15.15,
+    16.03,
+    15.51,
+    16.5,
+    16.77,
+    15.15,
+    null
+   ],
+   "n": 10,
+   "nv": 22,
+   "nb": 6,
+   "so": 25,
+   "ft": 50
+  }
+ },
+ "kassen": [
+  [
+   "AOK Baden-Württemberg",
+   2.99
+  ],
+  [
+   "AOK Bayern",
+   2.69
+  ],
+  [
+   "AOK Bremen/Bremerhaven",
+   3.29
+  ],
+  [
+   "AOK Hessen",
+   2.98
+  ],
+  [
+   "AOK Niedersachsen",
+   2.98
+  ],
+  [
+   "AOK Nordost",
+   3.5
+  ],
+  [
+   "AOK NordWest",
+   2.99
+  ],
+  [
+   "AOK PLUS",
+   3.1
+  ],
+  [
+   "AOK Rheinland-Pfalz/Saarland",
+   2.47
+  ],
+  [
+   "AOK Rheinland/Hamburg",
+   3.29
+  ],
+  [
+   "AOK Sachsen-Anhalt",
+   2.89
+  ],
+  [
+   "Audi BKK",
+   2.6
+  ],
+  [
+   "BAHN-BKK",
+   3.65
+  ],
+  [
+   "BARMER",
+   3.29
+  ],
+  [
+   "Bertelsmann BKK",
+   3.2
+  ],
+  [
+   "BIG direkt gesund",
+   3.69
+  ],
+  [
+   "BKK 24",
+   4.39
+  ],
+  [
+   "BKK Akzo Nobel Bayern",
+   3.39
+  ],
+  [
+   "BKK Diakonie",
+   3.8
+  ],
+  [
+   "BKK DürkoppAdler",
+   3.88
+  ],
+  [
+   "BKK EUREGIO",
+   3.39
+  ],
+  [
+   "BKK exklusiv",
+   3.49
+  ],
+  [
+   "BKK Faber-Castell & Partner",
+   2.48
+  ],
+  [
+   "BKK firmus",
+   2.18
+  ],
+  [
+   "BKK Freudenberg",
+   2.99
+  ],
+  [
+   "BKK GILDEMEISTER SEIDENSTICKER",
+   3.4
+  ],
+  [
+   "BKK Herkules",
+   3.48
+  ],
+  [
+   "BKK Linde",
+   2.99
+  ],
+  [
+   "BKK Melitta HMR",
+   3.9
+  ],
+  [
+   "BKK mkk – meine krankenkasse",
+   3.5
+  ],
+  [
+   "BKK Pfalz",
+   3.9
+  ],
+  [
+   "BKK PFAFF",
+   2.78
+  ],
+  [
+   "BKK ProVita",
+   3.79
+  ],
+  [
+   "BKK Public",
+   2.5
+  ],
+  [
+   "BKK SBH",
+   2.79
+  ],
+  [
+   "BKK Scheufelen",
+   3.99
+  ],
+  [
+   "BKK Technoform",
+   3.49
+  ],
+  [
+   "BKK VDN",
+   3.19
+  ],
+  [
+   "BKK VerbundPlus",
+   3.89
+  ],
+  [
+   "BKK Werra-Meissner",
+   4.35
+  ],
+  [
+   "BKK Wirtschaft & Finanzen",
+   3.99
+  ],
+  [
+   "BKK Würth",
+   3.4
+  ],
+  [
+   "BOSCH BKK",
+   3.18
+  ],
+  [
+   "Continentale BKK",
+   3.33
+  ],
+  [
+   "DAK-Gesundheit",
+   3.2
+  ],
+  [
+   "Debeka BKK",
+   3.25
+  ],
+  [
+   "Die BERGISCHE Krankenkasse",
+   3.79
+  ],
+  [
+   "energie-BKK",
+   3.98
+  ],
+  [
+   "HEK – Hanseatische Krankenkasse",
+   2.89
+  ],
+  [
+   "Heimat Krankenkasse",
+   3.9
+  ],
+  [
+   "hkk",
+   2.59
+  ],
+  [
+   "IKK Brandenburg und Berlin",
+   4.35
+  ],
+  [
+   "IKK classic",
+   3.85
+  ],
+  [
+   "IKK – Die Innovationskasse",
+   4.3
+  ],
+  [
+   "IKK gesund plus",
+   3.39
+  ],
+  [
+   "IKK Südwest",
+   3.87
+  ],
+  [
+   "KKH Kaufmännische Krankenkasse",
+   3.78
+  ],
+  [
+   "KNAPPSCHAFT",
+   4.3
+  ],
+  [
+   "mhplus Krankenkasse",
+   3.86
+  ],
+  [
+   "Mobil Krankenkasse",
+   3.89
+  ],
+  [
+   "novitas bkk",
+   3.6
+  ],
+  [
+   "Pronova BKK",
+   3.7
+  ],
+  [
+   "R+V BKK",
+   3.49
+  ],
+  [
+   "Salus BKK",
+   3.29
+  ],
+  [
+   "SBK",
+   3.8
+  ],
+  [
+   "SECURVITA",
+   3.9
+  ],
+  [
+   "SKD BKK",
+   2.98
+  ],
+  [
+   "Techniker Krankenkasse (TK)",
+   2.69
+  ],
+  [
+   "TUI BKK",
+   2.5
+  ],
+  [
+   "VIACTIV Krankenkasse",
+   4.19
+  ],
+  [
+   "vivida bkk",
+   3.79
+  ],
+  [
+   "WMF BKK",
+   2.85
+  ],
+  [
+   "ZF BKK",
+   3.4
+  ]
+ ],
+ "sonder": {
+  "HE": {
+   "quelle": "Manteltarifvertrag Wach- und Sicherheitsgewerbe Hessen (Fassung 03.02.2003, § 15 und § 16). Ob diese Fassung noch unverändert gilt, ist nicht bestätigt – bitte beim Arbeitgeber oder bei ver.di nachfragen.",
+   "weihnacht": {
+    "monat": 11,
+    "stichtag": "10-31",
+    "staffel": [
+     [
+      1,
+      0
+     ],
+     [
+      3,
+      15
+     ],
+     [
+      7,
+      27.5
+     ],
+     [
+      10,
+      30
+     ],
+     [
+      999,
+      45
+     ]
+    ],
+    "kuerzung": 2.5,
+    "maxTage": 40,
+    "unfallZaehlt": false
+   },
+   "urlaub": {
+    "proTag": 7.5
+   }
+  }
+ },
+ "k26": {
+  "MINDESTLOHN": 13.9,
+  "MINIJOB": 603,
+  "MIDI_BIS": 2000
+ },
+ "regeln": {
+  "stand": "2026-10-23",
+  "ruhezeit_std": 11,
+  "ruhezeit_quelle": "§ 5 Abs. 1 ArbZG",
+  "pendler_km": 0.38,
+  "pendler_quelle": "§ 9 Abs. 2 EStG in der Fassung des Steueränderungsgesetzes 2025 (ab 01.01.2026)",
+  "wk_pausch": 1230,
+  "vma": {
+   "v8": 14,
+   "v24": 28
+  },
+  "ueb_kf": 9,
+  "spesen_quelle": "Reisekostenpauschalen Inland 2026 (u. a. TK-Übersicht nach BMF)",
+  "lfz_wochen": 6,
+  "lfz_wartezeit_tage": 28,
+  "quellen": {
+   "ruhezeit": "https://www.arbeitsrechte.de/ruhezeit/",
+   "pendler": "https://www.haufe.de/personal/entgelt/erhoehung-der-entfernungspauschale_78_532080.html",
+   "spesen": "https://www.tk.de/firmenkunden/fachthemen/ausland/pauschalen-fuer-reisekosten-2026-2188234",
+   "urlaub": "https://www.hensche.de/Rechtsanwalt_Arbeitsrecht_Gesetze_BUrlG_p11.html"
+  }
+ },
+ "neuigkeiten": [
+  {
+   "titel": "Mindestlohn steigt auf 14,60 €",
+   "datum": "2027-01-01",
+   "bereich": "Lohn",
+   "was_bedeutet_das": "Liegt dein Stundenlohn darunter, muss er ab Januar 2027 angehoben werden. Tariflöhne im Sicherheitsdienst liegen meist schon darüber.",
+   "quelle": "https://www.bundesregierung.de/breg-de/service/fragen-und-anworten/mindestlohn-steigt-2391010"
+  },
+  {
+   "titel": "Minijob-Grenze steigt auf 633 € im Monat",
+   "datum": "2027-01-01",
+   "bereich": "Lohn",
+   "was_bedeutet_das": "Die Grenze hängt am Mindestlohn (10 Wochenstunden). Mit 14,60 € Mindestlohn ergeben sich 633 € im Monat bzw. 7.596 € im Jahr.",
+   "quelle": "https://www.bundesregierung.de/breg-de/service/fragen-und-anworten/mindestlohn-steigt-2391010"
+  },
+  {
+   "titel": "Beitragsbemessungsgrenzen 2027 geplant",
+   "datum": "2027-01-01",
+   "bereich": "Sozial",
+   "was_bedeutet_das": "Rente: 8.850 €/Monat, Kranken- und Pflegeversicherung: 6.375 €/Monat. Vom Kabinett am 07.10.2026 beschlossen, der Bundesrat muss noch zustimmen. Betrifft nur höhere Einkommen.",
+   "quelle": "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/261008-bundeskabinett-sv-rechengroessen-2027"
+  },
+  {
+   "titel": "Kinderkrankentage: 15 Tage gelten bis Ende 2026",
+   "datum": "2026-12-31",
+   "bereich": "Familie",
+   "was_bedeutet_das": "2026 gibt es 15 Tage pro Kind und Elternteil (Alleinerziehende 30). Wird nicht verlängert, sind es ab 2027 wieder 10 bzw. 20 Tage.",
+   "quelle": "https://www.gesetze-im-internet.de/sgb_5/__45.html"
+  },
+  {
+   "titel": "Sicherheit Hessen: Feiertag 100 %, nur höchster Zuschlag",
+   "datum": "2026-01-01",
+   "bereich": "Tarif",
+   "was_bedeutet_das": "Laut Manteltarif Hessen § 10 gibt es an Feiertagen 100 % (ganztags), am 24./31.12. ab 12 Uhr. Treffen Zuschläge zusammen, zählt nur der höchste. Die App rechnet jetzt so.",
+   "quelle": "https://www.bdsw.de/images/tarifuebersichten/2026/Uebersicht_Entgelt_2026_0101a.pdf"
+  }
+ ]
+}
